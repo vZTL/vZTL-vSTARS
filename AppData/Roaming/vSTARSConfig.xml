@@ -26,7 +26,7 @@
   <ColorRBLs Red="255" Green="255" Blue="255" />
   <ColorTPAGraphics Red="90" Green="180" Blue="255" />
   <InvertNumericKeypad>false</InvertNumericKeypad>
-  <LastSelectedFacility>Charlotte TRACON (CLT)</LastSelectedFacility>
+  <LastSelectedFacility>Montgomery TRACON (MGM)</LastSelectedFacility>
   <NetworkStatusURL>pZ9u441bE4a2NCGgqMxKNvwAIy0qEA+AwXB8c3sV90c=</NetworkStatusURL>
   <CachedServers>
     <string>bZ6sOj3z8O9lWFYR/s3CXAoEn4aFUdWy</string>
@@ -6435,7 +6435,7 @@ www.feedback.vztlartcc.net -or- feedback@vztlartcc.net</ControllerInfo>
         <RDVSLandLineSpec Label="ZTL 47" LandLineType="Override" Prefix="ATL" Suffix="CTR" Frequency="34550" />
         <RDVSLandLineSpec Label="ZID 34" LandLineType="Override" Prefix="IND" Suffix="CTR" Frequency="19550" />
         <RDVSLandLineSpec Label="ZID 30" LandLineType="Override" Prefix="IND" Suffix="CTR" Frequency="24800" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
+        <RDVSLandLineSpec Label="ZTL 49" LandLineType="Override" Prefix="ZTL" Suffix="CTR" Frequency="21350" />
         <RDVSLandLineSpec Label="ZID 83" LandLineType="Override" Prefix="IND" Suffix="CTR" Frequency="28220" />
         <RDVSLandLineSpec Label="ZID 85" LandLineType="Override" Prefix="IND" Suffix="CTR" Frequency="19520" />
         <RDVSLandLineSpec LandLineType="None" Frequency="0" />
@@ -7943,8 +7943,11 @@ www.feedback.vztlartcc.net -or- feedback@vztlartcc.net</ControllerInfo>
       <MagVar>3</MagVar>
       <Center Lon="-86.35981" Lat="32.38858" />
       <RadarSites>
-        <RadarSite IsPrimary="true" Character="M" ID="MGM" Elevation="270" FloorSlope="0.3" PrimaryRange="100" SecondaryRange="150" ConeOfSilenceSlope="30">
+        <RadarSite IsPrimary="true" Character="M" ID="MGM" Elevation="213" FloorSlope="0.3" PrimaryRange="100" SecondaryRange="150" ConeOfSilenceSlope="30">
           <Location Lon="-86.35981" Lat="32.38858" />
+        </RadarSite>
+        <RadarSite IsPrimary="false" Character="Z" ID="ZTL" Elevation="300" FloorSlope="0.3" PrimaryRange="100" SecondaryRange="1" ConeOfSilenceSlope="30">
+          <Location Lon="-86.168389" Lat="32.211722" />
         </RadarSite>
       </RadarSites>
       <RadarSite>-1</RadarSite>
@@ -7971,13 +7974,15 @@ www.feedback.vztlartcc.net -or- feedback@vztlartcc.net</ControllerInfo>
         <PositionInfo PositionType="Other" SectorName="Mentors               " RadioName="Atlanta Center" Prefix="ZTL" Suffix="MEN" Frequency="99998" SectorID="00" PositionSymbol="-" />
         <PositionInfo PositionType="Other" SectorName="ATM  		      " RadioName="Atlanta ATM" Prefix="ZTL" Suffix="ATM" Frequency="99998" SectorID="00" PositionSymbol="-" />
         <PositionInfo PositionType="Other" SectorName="DATM		      " RadioName="Atlanta DATM" Prefix="ZTL" Suffix="DATM" Frequency="99998" SectorID="00" PositionSymbol="-" />
-        <PositionInfo PositionType="Other" SectorName="Traffic Management Unit  " RadioName="Atlanta TMU" Prefix="ZTL" Suffix="TMU" Frequency="99998" SectorID="00" PositionSymbol="-" />
+        <PositionInfo PositionType="Other" SectorName="ZTL TMU" RadioName="Atlanta TMU" Prefix="ZTL" Suffix="TMU" Frequency="99998" SectorID="00" PositionSymbol="C" />
+        <PositionInfo PositionType="Adjacent" SectorName="ZTL Flight Data" RadioName="Atlanta Flight Watch" Prefix="ATL" Suffix="CTR" Frequency="35470" SectorID="WX" PositionSymbol="C" />
+        <PositionInfo PositionType="Adjacent" SectorName="ZTL Clearance Delivery" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="24250" SectorID="CD" PositionSymbol="C" />
+        <PositionInfo PositionType="Other" SectorName="ZTL Salem 42 High" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="20720" SectorID="42" PositionSymbol="C" />
+        <PositionInfo PositionType="Other" SectorName="ZTL Pulaski 43 High" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="32970" SectorID="43" PositionSymbol="C" />
         <PositionInfo PositionType="Other" SectorName="ZTL Shine 44 Low" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="32620" SectorID="44" PositionSymbol="C" />
         <PositionInfo PositionType="Other" SectorName="ZTL Bristol 45 Low" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="27850" SectorID="45" PositionSymbol="C" />
         <PositionInfo PositionType="Other" SectorName="ZTL Moped 47 Low" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="34550" SectorID="47" PositionSymbol="C" />
         <PositionInfo PositionType="Other" SectorName="ZTL Wilkes 48 Ultra Low" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="25150" SectorID="48" PositionSymbol="C" />
-        <PositionInfo PositionType="Other" SectorName="ZTL Salem 42 High" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="20720" SectorID="42" PositionSymbol="C" />
-        <PositionInfo PositionType="Other" SectorName="ZTL Pulaski 43 High" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="32970" SectorID="43" PositionSymbol="C" />
         <PositionInfo PositionType="Other" SectorName="ZTL Leeon 29 Low" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="28800" SectorID="29" PositionSymbol="C" />
         <PositionInfo PositionType="Other" SectorName="ZTL Locas 30 Low" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="33150" SectorID="30" PositionSymbol="C" />
         <PositionInfo PositionType="Other" SectorName="ZTL Unarm 31 Low" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="35350" SectorID="31" PositionSymbol="C" />
@@ -8016,17 +8021,48 @@ www.feedback.vztlartcc.net -or- feedback@vztlartcc.net</ControllerInfo>
         <PositionInfo PositionType="Other" SectorName="ZTL Burne 39 High" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="25920" SectorID="39" PositionSymbol="C" />
         <PositionInfo PositionType="Other" SectorName="ZTL Allatoona 36 Ultra High" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="24870" SectorID="36" PositionSymbol="C" />
         <PositionInfo PositionType="Other" SectorName="ZTL Blue Ridge 40 Ultra High" RadioName="Atlanta Center" Prefix="ATL" Suffix="CTR" Frequency="34070" SectorID="40" PositionSymbol="C" />
-        <PositionInfo PositionType="InFacility" SectorName="APP" RadioName="MGM" Prefix="MGM" Suffix="APP" Frequency="24000" SectorID="W" PositionSymbol="W" />
-        <PositionInfo PositionType="InFacility" SectorName="APP" RadioName="MGM" Prefix="MGM" Suffix="APP" Frequency="21200" SectorID="N" PositionSymbol="N" />
-        <PositionInfo PositionType="InFacility" SectorName="APP" RadioName="MGM" Prefix="MGM" Suffix="APP" Frequency="18850" SectorID="S" PositionSymbol="S" />
-        <PositionInfo PositionType="InFacility" SectorName="APP" RadioName="MGM" Prefix="MGM" Suffix="APP" Frequency="32450" SectorID="E" PositionSymbol="E" />
-        <PositionInfo PositionType="InFacility" SectorName="TWR" RadioName="TWR" Prefix="TWR" Suffix="LOCAL" Frequency="19700" SectorID="L" PositionSymbol="L" />
-        <PositionInfo PositionType="Other" SectorName="GND" RadioName="MGM" Prefix="GND" Suffix="GROUND" Frequency="21700" SectorID="MG" PositionSymbol="MGM" />
-        <PositionInfo PositionType="Other" SectorName="DELLMGML118.300" RadioName="MD" Prefix="MGMCD" Suffix="0201" Frequency="0" SectorID="MGM" PositionSymbol="DEL" />
-        <PositionInfo PositionType="InFacility" SectorName="TWR" RadioName="MXF" Prefix="MXF" Suffix="TWR" Frequency="18150" SectorID="X" PositionSymbol="X" />
-        <PositionInfo PositionType="Other" SectorName="GND" RadioName="MXF" Prefix="MXF" Suffix="GND" Frequency="27150" SectorID="XG" PositionSymbol="XG" />
+        <PositionInfo PositionType="InFacility" SectorName="APP" RadioName="Approach" Prefix="MGM" Suffix="APP" Frequency="24000" SectorID="W" PositionSymbol="W" />
+        <PositionInfo PositionType="InFacility" SectorName="APP" RadioName="Approach" Prefix="MGM" Suffix="APP" Frequency="21200" SectorID="N" PositionSymbol="N" />
+        <PositionInfo PositionType="InFacility" SectorName="APP" RadioName="Approach" Prefix="MGM" Suffix="APP" Frequency="18850" SectorID="S" PositionSymbol="S" />
+        <PositionInfo PositionType="InFacility" SectorName="APP" RadioName="Approach" Prefix="MGM" Suffix="APP" Frequency="32450" SectorID="E" PositionSymbol="E" />
+        <PositionInfo PositionType="InFacility" SectorName="TWR" RadioName="Tower" Prefix="MGM" Suffix="TWR" Frequency="19700" SectorID="L" PositionSymbol="L" />
+        <PositionInfo PositionType="Other" SectorName="GND" RadioName="Ground" Prefix="MGM" Suffix="GND" Frequency="21700" SectorID="MG" PositionSymbol="MG" />
+        <PositionInfo PositionType="Other" SectorName="DEL" RadioName="Clearance Delivery" Prefix="MGM" Suffix="DEL" Frequency="18300" SectorID="MD" PositionSymbol="MD" />
+        <PositionInfo PositionType="Other" SectorName="ATIS" RadioName="Montgomery ATIS" Prefix="KMGM" Suffix="ATIS" Frequency="20670" SectorID="MA" PositionSymbol="MA" />
+        <PositionInfo PositionType="InFacility" SectorName="TWR" RadioName="Maxwell Tower" Prefix="MXF" Suffix="TWR" Frequency="18150" SectorID="X" PositionSymbol="X" />
+        <PositionInfo PositionType="Other" SectorName="GND" RadioName="Maxwell Ground" Prefix="MXF" Suffix="GND" Frequency="27150" SectorID="XG" PositionSymbol="XG" />
+        <PositionInfo PositionType="Other" SectorName="ATIS" RadioName="Maxwell ATIS" Prefix="KMXF" Suffix="ATIS" Frequency="34700" SectorID="XA" PositionSymbol="XA" />
+        <PositionInfo PositionType="Other" SectorName="TAR-D" RadioName="Atlanta Approach" Prefix="ATL" Suffix="APP" Frequency="28000" SectorID="1D" PositionSymbol="A" />
+        <PositionInfo PositionType="Adjacent" SectorName="TAR-H" RadioName="Atlanta Approach" Prefix="ATL" Suffix="APP" Frequency="27900" SectorID="1H" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="TAR-L" RadioName="Atlanta Approach" Prefix="ATL" Suffix="APP" Frequency="28520" SectorID="1L" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="TAR-Y" RadioName="Atlanta Approach" Prefix="ATL" Suffix="APP" Frequency="24720" SectorID="1Y" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="DR-N" RadioName="Atlanta Departure" Prefix="ATL" Suffix="DEP" Frequency="25700" SectorID="1N" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="DR-S" RadioName="Atlanta Departure" Prefix="ATL" Suffix="DEP" Frequency="25650" SectorID="1S" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="DR-I" RadioName="Atlanta Departure" Prefix="ATL" Suffix="DEP" Frequency="35370" SectorID="1I" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="DR-N" RadioName="Atlanta Departure" Prefix="ATL" Suffix="APP" Frequency="25700" SectorID="1N" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="DR-S" RadioName="Atlanta Departure" Prefix="ATL" Suffix="APP" Frequency="25650" SectorID="1S" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="DR-I" RadioName="Atlanta Departure" Prefix="ATL" Suffix="APP" Frequency="35370" SectorID="1I" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="SAT-F" RadioName="Atlanta Approach" Prefix="ATL" Suffix="APP" Frequency="21000" SectorID="1F" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="SAT-G" RadioName="Atlanta Approach" Prefix="ATL" Suffix="APP" Frequency="28570" SectorID="1G" PositionSymbol="A" />
+        <PositionInfo PositionType="Adjacent" SectorName="SAT-P" RadioName="Atlanta Approach" Prefix="ATL" Suffix="APP" Frequency="26970" SectorID="1P" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="SAT-Q" RadioName="Atlanta Approach" Prefix="ATL" Suffix="APP" Frequency="24300" SectorID="1Q" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="SAT-X" RadioName="Atlanta Approach" Prefix="ATL" Suffix="APP" Frequency="19800" SectorID="1X" PositionSymbol="A" />
+        <PositionInfo PositionType="Adjacent" SectorName="CSG-Z" RadioName="Atlanta Approach" Prefix="ATL" Suffix="APP" Frequency="25500" SectorID="1Z" PositionSymbol="Z" />
+        <PositionInfo PositionType="Other" SectorName="CSG-R" RadioName="Atlanta Approach" Prefix="ATL" Suffix="APP" Frequency="26550" SectorID="1R" PositionSymbol="R" />
+        <PositionInfo PositionType="Other" SectorName="AUX1" RadioName="Atlanta Approach" Prefix="ATL" Suffix="DEP" Frequency="26020" SectorID="1B" PositionSymbol="A" />
+        <PositionInfo PositionType="Other" SectorName="AUX2" RadioName="Atlanta Approach" Prefix="ATL" Suffix="DEP" Frequency="24800" SectorID="1C" PositionSymbol="A" />
+        <PositionInfo PositionType="Adjacent" SectorName="APP" RadioName="Approach" Prefix="BHM" Suffix="APP" Frequency="23800" SectorID="2E" PositionSymbol="B" />
+        <PositionInfo PositionType="Adjacent" SectorName="APP" RadioName="Approach" Prefix="BHM" Suffix="APP" Frequency="27650" SectorID="2W" PositionSymbol="B" />
+        <PositionInfo PositionType="Adjacent" SectorName="APP" RadioName="Approach" Prefix="BHM" Suffix="APP" Frequency="20050" SectorID="2N" PositionSymbol="B" />
+        <PositionInfo PositionType="Adjacent" SectorName="APP" RadioName="Approach" Prefix="BHM" Suffix="APP" Frequency="20150" SectorID="2S" PositionSymbol="B" />
+        <PositionInfo PositionType="Other" SectorName="JAX_10_CTR" RadioName="Jacksonville Metta Center" Prefix="JAX" Suffix="CTR" Frequency="35050" SectorID="10" PositionSymbol="C" />
+        <PositionInfo PositionType="Other" SectorName="JAX_13_CTR" RadioName="Jacksonville Ashburn Center" Prefix="JAX" Suffix="CTR" Frequency="34450" SectorID="13" PositionSymbol="C" />
+        <PositionInfo PositionType="Other" SectorName="JAX_15_CTR" RadioName="Jacksonville Ocala Center" Prefix="JAX" Suffix="CTR" Frequency="33320" SectorID="15" PositionSymbol="C" />
+        <PositionInfo PositionType="Other" SectorName="JAX_30_CTR" RadioName="Jacksonville Nepta Center" Prefix="JAX" Suffix="CTR" Frequency="24770" SectorID="30" PositionSymbol="C" />
+        <PositionInfo PositionType="Other" SectorName="JAX_33_CTR" RadioName="Jacksonville Torry Center" Prefix="JAX" Suffix="CTR" Frequency="34850" SectorID="33" PositionSymbol="C" />
+        <PositionInfo PositionType="Other" SectorName="OZR_APP" RadioName="Cairns Approach" Prefix="OZR" Suffix="APP" Frequency="25400" SectorID="1O" PositionSymbol="O" />
       </Positions>
-      <PositionsLastImported>2012-11-12T15:29:13.116-05:00</PositionsLastImported>
+      <PositionsLastImported>2014-09-16T15:47:21.234-04:00</PositionsLastImported>
       <CommandAliases />
       <CommandAliasesLastImported>0001-01-01T00:00:00</CommandAliasesLastImported>
       <LDBBeaconCodesInhibited>false</LDBBeaconCodesInhibited>
@@ -8034,41 +8070,41 @@ www.feedback.vztlartcc.net -or- feedback@vztlartcc.net</ControllerInfo>
       <DisplayRequestedAltInFDB>false</DisplayRequestedAltInFDB>
       <RPCs />
       <RDVSLandLineSpecs>
+        <RDVSLandLineSpec Label="W" LandLineType="Override" Prefix="MGM" Suffix="APP" Frequency="24000" />
+        <RDVSLandLineSpec Label="N" LandLineType="Override" Prefix="MGM" Suffix="APP" Frequency="21200" />
+        <RDVSLandLineSpec Label="LC" LandLineType="Override" Prefix="MGM" Suffix="TWR" Frequency="19700" />
+        <RDVSLandLineSpec Label="S" LandLineType="Override" Prefix="MGM" Suffix="APP" Frequency="18850" />
+        <RDVSLandLineSpec Label="E" LandLineType="Override" Prefix="MGM" Suffix="APP" Frequency="32450" />
+        <RDVSLandLineSpec Label="MGM ATIS" LandLineType="Monitor" Prefix="KMGM" Suffix="ATIS" Frequency="20670" />
+        <RDVSLandLineSpec Label="GND" LandLineType="Override" Prefix="MGM" Suffix="GND" Frequency="21700" />
+        <RDVSLandLineSpec Label="CD" LandLineType="Override" Prefix="MGM" Suffix="DEL" Frequency="18300" />
+        <RDVSLandLineSpec Label="MXF TWR" LandLineType="Override" Prefix="MXF" Suffix="TWR" Frequency="19700" />
+        <RDVSLandLineSpec Label="MXF ATIS" LandLineType="Monitor" Prefix="KMXF" Suffix="ATIS" Frequency="34700" />
+        <RDVSLandLineSpec Label="ZTL 43" LandLineType="Override" Prefix="ATL" Suffix="CTR" Frequency="32970" />
+        <RDVSLandLineSpec Label="ZTL 10" LandLineType="Override" Prefix="ATL" Suffix="CTR" Frequency="25570" />
+        <RDVSLandLineSpec Label="ZTL WX" LandLineType="Override" Prefix="ATL" Suffix="CTR" Frequency="35470" />
+        <RDVSLandLineSpec Label="ZTL 14" LandLineType="Override" Prefix="ATL" Suffix="CTR" Frequency="32250" />
+        <RDVSLandLineSpec Label="ZTL 09" LandLineType="Override" Prefix="ATL" Suffix="CTR" Frequency="20450" />
+        <RDVSLandLineSpec Label="ZTL 03" LandLineType="Override" Prefix="ATL" Suffix="CTR" Frequency="28720" />
+        <RDVSLandLineSpec Label="ZTL 20" LandLineType="Override" Prefix="ATL" Suffix="CTR" Frequency="26420" />
+        <RDVSLandLineSpec Label="ZTL TMU" LandLineType="Override" Prefix="ZTL" Suffix="TMU" Frequency="99998" />
+        <RDVSLandLineSpec Label="ZTL 13" LandLineType="Override" Prefix="ATL" Suffix="CTR" Frequency="20550" />
+        <RDVSLandLineSpec Label="ZTL 01" LandLineType="Override" Prefix="ATL" Suffix="CTR" Frequency="35170" />
+        <RDVSLandLineSpec Label="BHM N" LandLineType="Override" Prefix="BHM" Suffix="APP" Frequency="20050" />
+        <RDVSLandLineSpec Label="BHM E" LandLineType="Override" Prefix="BHM" Suffix="APP" Frequency="23800" />
+        <RDVSLandLineSpec Label="ZTL CD" LandLineType="Override" Prefix="ATL" Suffix="CTR" Frequency="24250" />
+        <RDVSLandLineSpec Label="A80 H" LandLineType="Override" Prefix="ATL" Suffix="APP" Frequency="27900" />
+        <RDVSLandLineSpec Label="A80 P" LandLineType="Override" Prefix="ATL" Suffix="APP" Frequency="26970" />
+        <RDVSLandLineSpec Label="BHM W" LandLineType="Override" Prefix="BHM" Suffix="APP" Frequency="27650" />
+        <RDVSLandLineSpec Label="BHM S" LandLineType="Override" Prefix="BHM" Suffix="APP" Frequency="20150" />
+        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
+        <RDVSLandLineSpec Label="ZJX 30" LandLineType="Override" Prefix="JAX" Suffix="CTR" Frequency="24770" />
+        <RDVSLandLineSpec Label="A80 CSG" LandLineType="Override" Prefix="ATL" Suffix="APP" Frequency="25500" />
         <RDVSLandLineSpec LandLineType="None" Frequency="0" />
         <RDVSLandLineSpec LandLineType="None" Frequency="0" />
         <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
-        <RDVSLandLineSpec LandLineType="None" Frequency="0" />
+        <RDVSLandLineSpec Label="ZJX 10" LandLineType="Override" Prefix="JAX" Suffix="CTR" Frequency="35050" />
+        <RDVSLandLineSpec Label="OZR" LandLineType="Override" Prefix="OZR" Suffix="APP" Frequency="25400" />
         <RDVSLandLineSpec LandLineType="None" Frequency="0" />
         <RDVSLandLineSpec LandLineType="None" Frequency="0" />
         <RDVSLandLineSpec LandLineType="None" Frequency="0" />
@@ -8156,10 +8192,10 @@ www.feedback.vztlartcc.net -or- feedback@vztlartcc.net</ControllerInfo>
         <RDVSLandLineSpec LandLineType="None" Frequency="0" />
       </RDVSLandLineSpecs>
       <RDVSFrequencySpecs>
-        <RDVSFrequencySpec Frequency="99998" />
-        <RDVSFrequencySpec Frequency="99998" />
-        <RDVSFrequencySpec Frequency="99998" />
-        <RDVSFrequencySpec Frequency="99998" />
+        <RDVSFrequencySpec Frequency="24000" VoiceServerAddress="rw.liveatc.net" VoiceChannelName="MGM-W" />
+        <RDVSFrequencySpec Frequency="32450" VoiceServerAddress="RW.LIVEATC.NET" VoiceChannelName="MGM-E" />
+        <RDVSFrequencySpec Frequency="21200" VoiceServerAddress="RW.LIVEATC.NET" VoiceChannelName="MGM-N" />
+        <RDVSFrequencySpec Frequency="18850" VoiceServerAddress="RW.LIVEATC.NET" VoiceChannelName="MGM-S" />
         <RDVSFrequencySpec Frequency="99998" />
         <RDVSFrequencySpec Frequency="99998" />
         <RDVSFrequencySpec Frequency="99998" />
@@ -8197,7 +8233,112 @@ www.feedback.vztlartcc.net -or- feedback@vztlartcc.net</ControllerInfo>
       <ShowDestinationPrimaryArrivals>true</ShowDestinationPrimaryArrivals>
       <Allow4CharacterScratchpad>false</Allow4CharacterScratchpad>
       <Local>
-        <PrefSets />
+        <PrefSets>
+          <PrefSet>
+            <Name>MAIN</Name>
+            <Range>67</Range>
+            <DisplayCenter Lon="-86.386556374168691" Lat="32.475661468670481" />
+            <DisplayOffCenter>true</DisplayOffCenter>
+            <RangeRingSpacing>5</RangeRingSpacing>
+            <RangeRingCenter Lon="-86.35981" Lat="32.38858" />
+            <RangeRingsOffCenter>false</RangeRingsOffCenter>
+            <LeaderDirTracked>N</LeaderDirTracked>
+            <LeaderDirAssociated>N</LeaderDirAssociated>
+            <LeaderDirUnassociated>N</LeaderDirUnassociated>
+            <LeaderLength>2</LeaderLength>
+            <HistoryCount>5</HistoryCount>
+            <PTLLength>3</PTLLength>
+            <PTLOwn>false</PTLOwn>
+            <PTLAll>false</PTLAll>
+            <GroundView>false</GroundView>
+            <DataBlockAutoOffset>true</DataBlockAutoOffset>
+            <VisibleLists>Standard</VisibleLists>
+            <SelectedVideoMapListType>Geo</SelectedVideoMapListType>
+            <VisibleSSAFields>All</VisibleSSAFields>
+            <AllSSAFieldsVisible>false</AllSSAFieldsVisible>
+            <VisibleGITextLines>All</VisibleGITextLines>
+            <BrightnessMPA>40</BrightnessMPA>
+            <BrightnessMPB>25</BrightnessMPB>
+            <BrightnessFDB>100</BrightnessFDB>
+            <BrightnessLST>75</BrightnessLST>
+            <BrightnessPOS>80</BrightnessPOS>
+            <BrightnessLDB>100</BrightnessLDB>
+            <BrightnessOTH>100</BrightnessOTH>
+            <BrightnessTLS>40</BrightnessTLS>
+            <BrightnessRR>15</BrightnessRR>
+            <BrightnessCMP>45</BrightnessCMP>
+            <BrightnessBCN>55</BrightnessBCN>
+            <BrightnessPRI>100</BrightnessPRI>
+            <BrightnessHST>60</BrightnessHST>
+            <CharSizeDataBlocks>2</CharSizeDataBlocks>
+            <CharSizeLists>2</CharSizeLists>
+            <CharSizeTools>2</CharSizeTools>
+            <CharSizePositionSymbols>1</CharSizePositionSymbols>
+            <PreviewAreaLocation>
+              <X>80</X>
+              <Y>370</Y>
+            </PreviewAreaLocation>
+            <SSALocation>
+              <X>80</X>
+              <Y>90</Y>
+            </SSALocation>
+            <TabListLocation>
+              <X>960</X>
+              <Y>245</Y>
+            </TabListLocation>
+            <VFRListLocation>
+              <X>960</X>
+              <Y>590</Y>
+            </VFRListLocation>
+            <LACAMCIListLocation>
+              <X>960</X>
+              <Y>715</Y>
+            </LACAMCIListLocation>
+            <CoastSuspendListLocation>
+              <X>960</X>
+              <Y>465</Y>
+            </CoastSuspendListLocation>
+            <SignOnListLocation>
+              <X>960</X>
+              <Y>80</Y>
+            </SignOnListLocation>
+            <VideoMapListLocation>
+              <X>400</X>
+              <Y>90</Y>
+            </VideoMapListLocation>
+            <CRDAListLocation>
+              <X>80</X>
+              <Y>720</Y>
+            </CRDAListLocation>
+            <TowerList1Location>
+              <X>80</X>
+              <Y>570</Y>
+            </TowerList1Location>
+            <TowerList2Location>
+              <X>280</X>
+              <Y>570</Y>
+            </TowerList2Location>
+            <TowerList3Location>
+              <X>280</X>
+              <Y>720</Y>
+            </TowerList3Location>
+            <TabListSize>6</TabListSize>
+            <CoastSuspendListSize>3</CoastSuspendListSize>
+            <VFRListSize>3</VFRListSize>
+            <TowerList1Size>10</TowerList1Size>
+            <TowerList2Size>10</TowerList2Size>
+            <TowerList3Size>10</TowerList3Size>
+            <SelectedVideoMaps>
+              <string>BASE</string>
+            </SelectedVideoMaps>
+            <SelectedVolumeGroups />
+            <AltitudeFilterUnassociated LowerLimit="0" UpperLimit="999" />
+            <AltitudeFilterAssociated LowerLimit="0" UpperLimit="999" />
+            <QuickLookedSectors />
+            <QuickLookAll>false</QuickLookAll>
+            <SelectedBeaconCodes />
+          </PrefSet>
+        </PrefSets>
         <NetworkRating>OBS</NetworkRating>
         <NetworkFacility>APP</NetworkFacility>
         <DefaultCallsign>MGM_1_APP</DefaultCallsign>
@@ -8205,7 +8346,7 @@ www.feedback.vztlartcc.net -or- feedback@vztlartcc.net</ControllerInfo>
         <ControllerInfo>$myrealname, $callsign - $freq(), $radioname(), vZTL vSTARS BETA v0.1
 View our Pilot and Events information at www.pilots.vztlartcc.net &amp; www.events.vztlartcc.net
 www.feedback.vztlartcc.net -or- feedback@vztlartcc.net</ControllerInfo>
-        <SelectedPrefSet>-1</SelectedPrefSet>
+        <SelectedPrefSet>0</SelectedPrefSet>
         <Bookmarks />
       </Local>
       <IFRSquawkCodeRange Low="3000" High="6777" />
@@ -9356,8 +9497,8 @@ www.feedback.vztlartcc.net -or- feedback@vztlartcc.net</ControllerInfo>
   </MainWindowProperties>
   <CommsWindowProperties Maximized="false">
     <Location>
-      <X>2174</X>
-      <Y>376</Y>
+      <X>311</X>
+      <Y>612</Y>
     </Location>
     <Size>
       <Width>600</Width>
@@ -9366,8 +9507,8 @@ www.feedback.vztlartcc.net -or- feedback@vztlartcc.net</ControllerInfo>
   </CommsWindowProperties>
   <RDVSWindowProperties Maximized="false">
     <Location>
-      <X>1988</X>
-      <Y>159</Y>
+      <X>331</X>
+      <Y>221</Y>
     </Location>
     <Size>
       <Width>706</Width>
