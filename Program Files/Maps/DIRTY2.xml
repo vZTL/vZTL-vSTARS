@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VideoMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShortName="DIRTY" LongName="DIRTY2" STARSGroup="" STARSTDMOnly="false" VisibleInList="true">
+  <Colors>
+    <NamedColor Red="80" Green="80" Blue="40" Name="R80G80B40" />
+  </Colors>
+  <Elements>
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-0" StartLat="0" EndLon="-0" EndLat="0" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-79.1068892" StartLat="37.9005247" EndLon="-80.3162833" EndLat="37.0177556" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-80.3162833" StartLat="37.0177556" EndLon="-81.8910472" EndLat="35.8175944" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-81.8910472" StartLat="35.8175944" EndLon="-82.6895833" EndLat="35.1866639" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-82.6895833" StartLat="35.1866639" EndLon="-83.2976611" EndLat="34.6958728" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.0523692" StartLat="35.7900992" EndLon="-83.2976611" EndLat="34.6958728" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-81.92701" StartLat="35.0336258" EndLon="-83.2976611" EndLat="34.6958728" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.2976611" StartLat="34.6958728" EndLon="-83.6476056" EndLat="34.3079639" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.6476056" StartLat="34.3079639" EndLon="-83.8477778" EndLat="34.0831667" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.8477778" StartLat="34.0831667" EndLon="-83.9681889" EndLat="33.9709611" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.9681889" StartLat="33.9709611" EndLon="-84.1377889" EndLat="33.7327361" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-84.1377889" StartLat="33.7327361" EndLon="-84.2797361" EndLat="33.7329778" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-84.2797361" StartLat="33.7329778" EndLon="-84.4346028" EndLat="33.7329528" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-84.4346028" StartLat="33.7329528" EndLon="-84.5644778" EndLat="33.7329417" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-84.5644778" StartLat="33.7329417" EndLon="-84.7161667" EndLat="33.7325917" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-84.7161667" StartLat="33.7325917" EndLon="-84.8160861" EndLat="33.7323139" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.9681889" StartLat="33.9709611" EndLon="-84.2763611" EndLat="33.5369333" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-84.2763611" StartLat="33.5369333" EndLon="-84.4304806" EndLat="33.5368417" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-84.4304806" StartLat="33.5368417" EndLon="-84.5485778" EndLat="33.5368139" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-84.5485778" StartLat="33.5368139" EndLon="-84.6465444" EndLat="33.5366556" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-84.6465444" StartLat="33.5366556" EndLon="-84.7462389" EndLat="33.5365" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.9681889" StartLat="33.9709611" EndLon="-83.9646889" EndLat="33.8875583" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.9681889" StartLat="33.9709611" EndLon="-83.9591028" EndLat="33.7540417" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.9591028" StartLat="33.7540417" EndLon="-84.0113528" EndLat="33.6489583" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-84.0113528" StartLat="33.6489583" EndLon="-84.1303417" EndLat="33.6492667" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.9591028" StartLat="33.7540417" EndLon="-84.0114139" EndLat="33.646225" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-84.0114139" StartLat="33.646225" EndLon="-84.1325972" EndLat="33.6465333" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.9591028" StartLat="33.7540417" EndLon="-83.9911167" EndLat="33.633875" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.9911167" StartLat="33.633875" EndLon="-84.0599833" EndLat="33.6341083" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-83.9591028" StartLat="33.7540417" EndLon="-84.0012194" EndLat="33.6311806" />
+    <Element xsi:type="Line" Color="R80G80B40" StartLon="-84.0012194" StartLat="33.6311806" EndLon="-84.0700833" EndLat="33.6313833" />
+  </Elements>
+</VideoMap>
